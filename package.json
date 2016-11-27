@@ -1,5 +1,5 @@
 {
-    "name": "Raect-YTS",
+    "name": "React-Youtube_search",
     "version": "1.0.0",
     "description": "Youtube search and fetch with React and Babel support",
     "main": "index.js",

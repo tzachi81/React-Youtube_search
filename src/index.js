@@ -18,7 +18,7 @@ class App extends Component {
             selectedVideo: null
         };
 
-        this.videoSearch('');
+        this.videoSearch('youtube');
 
     }
 
@@ -38,7 +38,7 @@ class App extends Component {
         return (
 
             <
-            div > { /*<h1> {'Youtube Search with react'}</h1>*/ } <
+            div > <
             SearchBar onSearchTermChange = { term => this.videoSearch(term) }
             /> <
             VideoDetail video = { this.state.selectedVideo }
@@ -51,4 +51,4 @@ class App extends Component {
     }
 }
 
-ReactDOM.render( < App / > , document.querySelector('.container'));
+ReactDOM.render( < App / > , document.querySelector('.content-container'));
